@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    stack<string> st;
+
+
+    st.push("md");
+    st.push("shohidul");
+    st.push("islam");
+    st.push("sojib");
+
+    while(!st.empty())
+    {
+        cout<<st.top()<<endl;
+        st.pop();
+    }
+    cout<<endl;
+
+}
+
+
+
+/*
+
+md
+shohidul
+islam
+sojib
+*/
