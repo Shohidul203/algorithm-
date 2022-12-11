@@ -1,0 +1,51 @@
+#include<bits/stdc++.h>
+#include<vector>
+ 
+using namespace std;
+ 
+//vector
+
+int main()
+{
+ 
+    vector<int> vec;
+    vec.push_back(10);
+    vec.push_back(20);
+    vec.push_back(30);
+ 
+    vector<int>::iterator it;
+ 
+    for( it = vec.begin(); it != vec.end(); it++)
+    {
+ 
+        cout<<*(it)<<" ";
+    }
+    cout<<endl;
+    // uporer r ei for loop same
+   // for(int i = 0; i<vec.size(); i++)
+    //{
+    //    cout<<vec{[i]<<" ";
+   // }
+ 
+    //return 0;
+ 
+ 
+ 
+    vector<string> vect;
+    vect.push_back("hey");
+    vect.push_back("good");
+    vect.push_back("morning");
+    vect.push_back("sojib!");
+ 
+    vector<string>::iterator st;
+ 
+  for( st = vect.begin(); st != vect.end(); st++)
+    {
+ 
+        cout<<*(st)<<" ";
+    }
+    cout<<endl;
+    return 0;
+ 
+}
+ 
